@@ -1,9 +1,14 @@
 let person = {
-    name : "fathima",
-    greet: function(){
-        return this.name;
+    firstName : "fathima",
+    lastName : "naja"
+    }
+let user = {
+    fullName : function(age){
+        return this.firstName + " " + this.lastName + " is " + age
     }
 }
 
-    console.log(person.greet());
-    
+console.log(user.fullName.call(person, "20"));
+    console.log(user.fullName.apply(person, ["20"]));
+    let binded= user.fullName.bind(person,20);
+    console.log(binded());
