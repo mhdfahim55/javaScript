@@ -1,6 +1,5 @@
-function evenOdd(num){
-    return num % 2 == 0 ? "Even" : "Odd";
+function mark(num){
+    return num >= 40  ? "Pass" : "Fail";
 }
 
-console.log(evenOdd(5));
-console.log(evenOdd(10));
+console.log(mark(20));
