@@ -1,3 +1,2 @@
-let arr=[10,20,30,40];
-
-console.log(arr[arr.length-1]);
+let nums = [1, 2, 3, 4]
+console.log(nums.map(v => v * 2));
