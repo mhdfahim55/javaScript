@@ -1,3 +1,3 @@
-let nums = [1, 2, 3, 4, 5];
-nums.every(num => num > 0) // true
-console.log(nums.every(num=>num>0));
+let nums = [10,15,20,25,30];
+console.log(nums.find(v=>v>20));
+// find a first number greater than 20
