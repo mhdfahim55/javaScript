@@ -1,2 +1,3 @@
-let arr=["apple","banana","grape","orange"];
-console.log(arr.forEach(v=>console.log(v)));
+let nums = [10, 20, 30, 40, 50];
+let sum = nums.some(num => num > 25);
+console.log(sum); // Output: true
