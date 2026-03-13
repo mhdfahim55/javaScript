@@ -1,5 +1,8 @@
-let str="hello";
-let reversedStr = str.split('').reverse().join('');
-console.log(reversedStr);
+let user={
+    name:"fathima",
+    age:20,
+    city:"kochi"}
 
-// reversed
+    Object.keys(user).length
+    console.log(Object.keys(user).length);
+    
