@@ -1,8 +1,8 @@
-let user={
-    name:"fathima",
-    age:20,
-    city:"kochi"}
+let user = {
+    name : "fathima",
+    age : 20,
+    city : "kochi"
+}
 
-    Object.keys(user).length
-    console.log(Object.keys(user).length);
-    
+Object.entries(user)
+console.log(Object.entries(user));
