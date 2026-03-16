@@ -1,19 +1,29 @@
-function age(num){
-    if(num < 13){
-        return "child";
+function week(num){
+    if(num == 1){
+        return "sunday";
     }
-    else if(num >= 13 && num <= 19){
-        return "teenager";
+    else if(num ==2){
+        return "monday";
     }
-    else if(num >= 20 && num <= 59){
-        return "adult";
+    else if(num ==3){
+        return "tuesday";
     }
-    else{
-        return "senior";
+    else if(num ==4){
+        return "wednesday";
     }
+    else if(num ==5){
+        return "thursday";
+    }
+    else if(num ==6){
+        return "friday";
+    }
+    else if(num ==7 ){
+        return "saturday";
+    }
+    else { return "invalid day";}
 }
 
-console.log(age(5));
-console.log(age(15));
-console.log(age(25));
-console.log(age(70));
+console.log(week(1));
+console.log(week(5));
+console.log(week(7));
+console.log(week(70));
