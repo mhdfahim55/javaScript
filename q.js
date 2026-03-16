@@ -1,17 +1,43 @@
-function number(num){
-    if(num  >=1 && num <=10){
-        return "low";
+function month(num){
+    switch(num){
+        case 1:
+            return 31;
+            break;
+        case 2:
+            return 28;
+            break;
+        case 3:
+            return 31;
+            break;
+        case 4:
+            return 30;
+            break;
+        case 5:
+            return 31;
+            break;
+        case 6:
+            return 30;
+            break;
+        case 7:
+            return 31;
+            break;
+        case 8:
+            return 31;
+            break;
+        case 9:
+            return 30;
+            break;
+        case 10:
+            return 31;
+            break;
+        case 11:
+            return 30;
+            break;
+        case 12:
+            return 31;
+            break;
+        default:
+            return "Invalid month number";
     }
-    else if(num >=11 && num <=50){
-        return "Medium";
-    }
-    else if(num >=51 && num <=100){
-        return "High";
-    }
-    else { return "out of range";}
 }
-
-console.log(number(5));
-console.log(number(45));
-console.log(number(67));
-
+console.log(month(5));
