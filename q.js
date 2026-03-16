@@ -1,10 +1,6 @@
-let obj={
-    name:"fathima",
-    course:"MERN",
+for(i=1;i<=20;i++){
+    if(i%7==0){
+        break;
+    }
+    console.log(i);
 }
-
-let count=0;
-for(let key in obj){
-    count++;
-}
-console.log(count);
