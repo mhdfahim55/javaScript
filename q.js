@@ -1,29 +1,17 @@
-function week(num){
-    if(num == 1){
-        return "sunday";
+function number(num){
+    if(num  >=1 && num <=10){
+        return "low";
     }
-    else if(num ==2){
-        return "monday";
+    else if(num >=11 && num <=50){
+        return "Medium";
     }
-    else if(num ==3){
-        return "tuesday";
+    else if(num >=51 && num <=100){
+        return "High";
     }
-    else if(num ==4){
-        return "wednesday";
-    }
-    else if(num ==5){
-        return "thursday";
-    }
-    else if(num ==6){
-        return "friday";
-    }
-    else if(num ==7 ){
-        return "saturday";
-    }
-    else { return "invalid day";}
+    else { return "out of range";}
 }
 
-console.log(week(1));
-console.log(week(5));
-console.log(week(7));
-console.log(week(70));
+console.log(number(5));
+console.log(number(45));
+console.log(number(67));
+
