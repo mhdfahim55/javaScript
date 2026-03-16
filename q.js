@@ -1,15 +1,19 @@
-function num(num){
-    if(num > 0){
-        return "+";
+function age(num){
+    if(num < 13){
+        return "child";
     }
-    else if(num < 0){
-        return "-";
+    else if(num >= 13 && num <= 19){
+        return "teenager";
     }
-    else{       return "0";
-}
+    else if(num >= 20 && num <= 59){
+        return "adult";
+    }
+    else{
+        return "senior";
+    }
 }
 
-console.log(num(5));
-console.log(num(-3));
-console.log(num(0));
-
+console.log(age(5));
+console.log(age(15));
+console.log(age(25));
+console.log(age(70));
