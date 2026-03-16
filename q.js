@@ -1,19 +1,2 @@
-function operations(a,b,operator){
-    switch(operator){
-        case '+':
-            return a + b;
-        case '-':
-            return a - b;
-        case '*':
-            return a * b;
-        case '/':
-            return a / b;
-        default:
-            return "Invalid operator";
-    }
-}
-console.log(operations(5, 3, '+'));
-console.log(operations(5, 3, '-'));
-console.log(operations(5, 3, '*'));
-console.log(operations(5, 3, '/'));
-console.log(operations(5, 3, '%'));
+for (let i = 1; i <= 10; i++) 
+    console.log(i);
