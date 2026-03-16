@@ -1,7 +1,4 @@
-function multiplication(num){
-    for(let i=1; i<=10; i++){
-        console.log(`${num} x ${i} = ${num * i}`);
-        
-    }
-}
-multiplication(5);
+for (let i = 1; i <= 50; i++) {
+    if (i % 2 === 0) {
+        console.log(i);
+}}
