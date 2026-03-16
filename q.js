@@ -3,6 +3,8 @@ let obj={
     course:"MERN",
 }
 
+let count=0;
 for(let key in obj){
-    console.log(`${key}: ${obj[key]}`);
+    count++;
 }
+console.log(count);
