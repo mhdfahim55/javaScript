@@ -1,7 +1,13 @@
-let num =3
-let i=1;
+let num =1
+
 
 do{
-    console.log(num*i);
-    i++;
-}while(i<=5)
+    
+    if(num==10){
+        break;
+
+    }
+    console.log(num);
+    
+    num++;
+}while(num<=15)
