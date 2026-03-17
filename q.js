@@ -1,13 +1,7 @@
-let num =1
-
-
-do{
-    
-    if(num==10){
-        break;
-
+for(i=1;i<30;i++)
+    {
+        if(i%5==0){
+            continue;
     }
-    console.log(num);
-    
-    num++;
-}while(num<=15)
+    console.log(i);
+    }
